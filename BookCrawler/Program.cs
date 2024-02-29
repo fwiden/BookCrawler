@@ -1,10 +1,13 @@
-﻿namespace BookCrawler
+﻿using HtmlAgilityPack;
+
+
+namespace BookCrawler
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var web = new HtmlWeb();
         }
     }
 }
